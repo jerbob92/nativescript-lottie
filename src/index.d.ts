@@ -19,6 +19,7 @@ export declare class LottieView extends View {
   progress: number;
   speed: number;
   frame: number;
+  imageAssetsFolder: string;
   //android specific
   resumeAnimation(): void;
   minProgress: number;
