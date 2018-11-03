@@ -120,10 +120,11 @@ Place your animations files in your `app/App_Resources/iOS/` folder.
 
 ## Properties
 
-| Property   | Type     | Default | Description                            |
-| ---------- | -------- | ------- | -------------------------------------- |
-| `progress` | `number` | `0`     | Get/set the progress of the animation. |
-| `speed`    | `number` | `1`     | Get/set the animation's speed          |
+| Property            | Type     | Default | Description                            |
+| ------------------- | -------- | ------- | -------------------------------------- |
+| `progress`          | `number` | `0`     | Get/set the progress of the animation. |
+| `speed`             | `number` | `1`     | Get/set the animation's speed          |
+| `imageAssetsFolder` | `string` | ``      | Set the image assets folder.           |
 
 ## Methods
 
