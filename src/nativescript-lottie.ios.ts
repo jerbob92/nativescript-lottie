@@ -214,6 +214,12 @@ export class LottieView extends LottieViewBase {
     return duration;
   }
 
+  public set imageAssetsFolder(imageAssetsFolder: string) {
+    if (typeof imageAssetsFolder !== 'undefined' && this._animationView) {
+      this._animationView.setImageAssetsFolder(imageAssetsFolder);
+    }
+  }
+
   public set contentMode(mode: any) {
     this._contentMode = mode;
     if (this._animationView) {

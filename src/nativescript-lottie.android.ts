@@ -167,6 +167,12 @@ export class LottieView extends LottieViewBase {
     return duration;
   }
 
+  public set imageAssetsFolder(imageAssetsFolder: string) {
+    if (this.nativeView) {
+      this.nativeView.setImageAssetsFolder(imageAssetsFolder);
+    }
+  }
+
   public cancelAnimation(): void {
     if (this.nativeView) {
       this.nativeView.cancelAnimation();
